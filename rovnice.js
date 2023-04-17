@@ -8,5 +8,12 @@ function pocitej() {
     let sVysledek = (m2*c*(t2-t))/(c*(t-t1))
     console.log(sVysledek)
 
+    let uVysledek = document.getElementById("uVysledek").value;
+    if (uVysledek == sVysledek) {
+        document.getElementById("hodnoceni").innerText = "SPRÁVNĚ!";
+    } else {
+        document.getElementById("hodnoceni").innerText = "ŠPATNĚ!";
+    }
+
     document.getElementById("vysledek").innerText = sVysledek
 }
