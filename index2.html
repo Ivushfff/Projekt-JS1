@@ -1,16 +1,79 @@
-<h1>Princip kalorimetrické rovnice</h1><br>
-Začneme se situací, kdy tepelná výměna probíhá pouze dvěma látkami (např. hodíme žhavý kov do vodní lázně). Počítáme s izolovanou soustavou, kdy se teplo sdílí pouze mezi našimi známými látkami a ne s vnějším okolí. Musí potom fungovat zákon zachování energie v tom tvaru, kdy teplo Qh, které odevzdá teplejší látka se rovná teplu Qc, které přijme chladnější látka.
-<br><br>
-Pokud si počáteční stavy látek označíme indexy c pro studenější a h pro teplejší látku, tak můžeme kalorimetrickou rovnici sestavit jako 
-<br><br>
-<img src="kalometrie.png">
-<br><br>
-Vysvětlivky:<br>
-t1 … teplota studenější vody<br>
-t2 … teplota teplejší vody <br>
-t  … výsledná teplota po ustálení<br>
-m1 … hmotnost studenější vody<br>
-݉m2 … hmotnost teplejší vody<br>
-c  … měrná tepelná kapacita vody<br>
-<br>
-<a rel="nofollow" href="index.html">Cvičný příklad</a>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <h1>Princip kalorimetrické rovnice</h1><br>
+        SESTAVENÍ A POPIS KALORIMETRICKÉ ROVNICE<br><br>
+        
+        Myšlenkový pokus:<br>
+        
+        kapalina v kalorimetru ..................................... m1, c1, t1<br>
+        teplejší těleso ................................................... m2, c2, t2<br><br>
+        
+        t2 > t1<br><br>
+        
+        ponoření tělesa do kapaliny <br>
+        ↓<br>
+        tepelná výměna mezi tělesem a kapalinou<br>
+        ↓<br>
+        ustanovení rovnovážného stavu - kapalina i těleso budou mít výslednou teplotu t  (t2 > t > t1)<br>
+        
+        platí zákon zachování energie: ΔU1 = Δ U2 (izolovaná soustava)<br><br>
+        
+        ΔU1 ...... přírůstek vnitřní energie kapaliny<br>
+        Δ U2 ..... úbytek vnitřní energie tělesa<br><br>
+        
+        potom z hlediska tepelné výměny<br><br>
+         
+        teplo přijaté kapalinou:  Q1 = m1 . c1 . (t - t1)         teplo odevzdané tělesem:  Q2 = m2 . c2 . (t2 - t)<br>
+        
+        Q1 = Q2 <br>
+        (izolovaná soustava)<br><br>
+        
+        
+        <img src="kalometrie.png">
+        <br><br>
+        
+          KALORIMETRICKÁ ROVNICE (nepřesná)<br><br>
+        
+        
+        důvod nepřesnosti: samotný kalorimetr, ve kterém je kapalina, se také ohřeje (přijme teplo)<br>
+        ↓<br>
+        proto musíme rovnici upravit na tvar:<br>
+        ↓<br>
+        teplo přijaté kapalinou	+	teplo přijaté kalorimetrem	=	teplo odevzdané tělesem<br>
+        ↓<br>
+        Q1                                 +	QK                         =	Q2<br>
+        
+        
+        m1 . c1 . (t - t1)	+	mk . ck . (t - t1)	=	m2 . c2 . (t2 - t)<br><br>
+        
+        KALORIMETRICKÁ ROVNICE (úplná, přesnější)<br><br>
+        m1 =  hmotnost kapaliny<br>
+        c1 = měrná tepelná kapacita kapaliny<br>
+        t1 = počáteční teplota vody<br>
+        t  = výsledná teplota<br><br>
+        
+             
+        mk = hmotnost kalorimetru <br>
+        ck = měrná tepelná kapacita kalorimetru<br><br>
+             
+        m2 = hmotnost tělesa<br>
+        c2 = měrná tepelná kapacita tělesa<br>
+        t2 = počáteční teplota  tělesa<br>
+        t  = výsledná teplota<br><br>
+        
+        
+        <a rel="nofollow" href="index.html">Cvičný příklad</a>
+        
+    
+</body>
+</html>
